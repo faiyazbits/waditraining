@@ -1,1 +1,0 @@
-/*Create a program that generates a multiplication table (up to a specified number) and stores it in an array. For example, for the number 5, the table would be [1, 2, 3, 4, 5] multiplied by 1 to 5. */

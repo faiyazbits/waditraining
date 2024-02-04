@@ -1,1 +1,0 @@
-/*Write a program that removes all duplicates from an array of numbers*/
