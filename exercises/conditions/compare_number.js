@@ -6,11 +6,9 @@
  * @param d
  * @returns {string}
  */
-const compareNumber = (n1,n2) => {
-    throw new Error('Put your solution here');
+const compareNumber = (n1, n2) => {
+  // throw new Error('Put your solution here');
 };
 const a = 100;
 const b = 110;
-console.log(compareNumber(a,b)); // 110 is greater than 100
-
-
+console.log(compareNumber(a, b)); // 110 is greater than 100
