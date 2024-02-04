@@ -6,8 +6,9 @@
  * @returns {Array}
  */
 const tail = (array) => {
-  throw new Error("Put your solution here");
+  let remove = array.shift();
+  console.log(remove);
 };
 const data = [1, 2, 3];
 
-console.log(tail(data)); // [2, 3]
+tail(data); // [2, 3]
