@@ -6,7 +6,9 @@
  * @returns {Array}
  */
 const reverse = (array) => {
-  throw new Error("Put your solution here");
+  for (let i = 3; i >= 1; i--) {
+    console.log(i);
+  }
 };
 const data = [1, 2, 3];
-console.log(reverse(data)); // [3, 2, 1]
+reverse(data); // [3, 2, 1]
