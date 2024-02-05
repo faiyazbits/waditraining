@@ -6,10 +6,11 @@
  * @param {Number} elementToDrop - number of elements to drop.
  * @returns {Array}
  */
-const drop = (array,elementsToDrop) => {
-    throw new Error('Put your solution here');
-}
+const drop = (array, elementsToDrop) => {
+  let newarray = array.slice(2);
+  console.log(newarray);
+};
 const data = [1, 2, 3, 4];
 const elementsToDrop = 2;
 
-console.log(drop(data,elementsToDrop)); // [3, 4]
+drop(data, elementsToDrop); // [3, 4]
