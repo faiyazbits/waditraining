@@ -1,9 +1,12 @@
 /**
-  * Task description: Write a method to convert a string into camel case.
-  * Expected Result: (JavaScript exercises) => "JavaScriptExercises"
-  * Task Complexity: 1 of 5
-*/
+ * Task description: Write a method to convert a string into camel case.
+ * Expected Result: (JavaScript exercises) => "JavaScriptExercises"
+ * Task Complexity: 1 of 5
+ */
+
+const str = "JavaScript exercises";
 const camelize = (str) => {
-}
-const str = 'JavaScript exercises'
-console.log(camelize(str)) // "JavaScriptExercises"
+  let string = _.camelCase(str);
+  return string;
+};
+console.log(camelize(str)); // "JavaScriptExercises"

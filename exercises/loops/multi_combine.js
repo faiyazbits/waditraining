@@ -10,13 +10,6 @@ const characters = ["A", "B", "C"];
 const numbers = ["1", "2", "3", "4", "5", "6", "7", "8"];
 const vowels = ["a", "e", "i", "o", "u"];
 
-const multi_combine = (characters, numbers, vowels) => {
-  const mergedArray = [];
-
-  for (let i = 0; i < characters.length; i++) {
-    mergedArray.push(characters[i] + numbers[i] + vowels[i]);
-  }
-  console.log(mergedArray.join(""));
-};
+const multi_combine = (characters, numbers, vowels) => {};
 
 multi_combine(characters, numbers, vowels);

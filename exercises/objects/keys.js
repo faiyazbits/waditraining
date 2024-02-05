@@ -6,12 +6,12 @@
  * @returns {Array} - Returns the array of property names.
  */
 const keys = (data) => {
-    throw new Error('Put your solution here');
-}
+  return data.value;
+};
 const data = {
-    a : 1,
-    b : 2,
-    c : 3
-}
+  a: 1,
+  b: 2,
+  c: 3,
+};
 
 console.log(keys(data)); // ['a', 'b', 'c']
