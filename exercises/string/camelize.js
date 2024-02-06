@@ -1,9 +1,15 @@
 /**
-  * Task description: Write a method to convert a string into camel case.
-  * Expected Result: (JavaScript exercises) => "JavaScriptExercises"
-  * Task Complexity: 1 of 5
-*/
+ * Task description: Write a method to convert a string into camel case.
+ * Expected Result: (JavaScript exercises) => "JavaScriptExercises"
+ * Task Complexity: 1 of 5
+ */
 const camelize = (str) => {
-}
-const str = 'JavaScript exercises'
-console.log(camelize(str)) // "JavaScriptExercises"
+  camelize = function camelize(str) {
+    return to.toUpperCase();
+  };
+
+  console.log(camelize("JavaScriptExercises"));
+};
+
+const str = "JavaScript exercises";
+console.log(camelize(str)); // "JavaScriptExercises"
