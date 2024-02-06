@@ -5,9 +5,7 @@
  * @param {Object} data - The object to query.
  * @returns {Array} - Returns the array of property names.
  */
-const keys = (data) => {
-  return data.value;
-};
+const keys = (data) => {};
 const data = {
   a: 1,
   b: 2,
