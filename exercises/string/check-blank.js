@@ -6,5 +6,5 @@
 const checkIsBlank = (str) => {
   console.log(str);
 };
-const str = "true";
+const str = "";
 checkIsBlank(str); // true

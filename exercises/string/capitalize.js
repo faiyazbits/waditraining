@@ -4,7 +4,15 @@
  * Task Complexity: 1 of 5
  */
 const capitalize = (str) => {
-  console.log(str);
+  let s = str.split(" ");
+  let n = [];
+  for (let i = 0; i < s.length; i++) {
+    let f = s[i];
+    let word = f[0].toUpperCase();
+
+    console.log(word);
+  }
 };
-const str = "Js String Exercises";
+const str = "js string exercises";
 capitalize(str); // "Js String Exercises"
+console.log(word);

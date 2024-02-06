@@ -3,8 +3,6 @@
  * Expected Result: (JavaScript exercises) => "JavaScriptExercises"
  * Task Complexity: 1 of 5
  */
-const camelize = (str) => {
-  console.log(str);
-};
-const str = "JavaScriptExercises";
+const camelize = (str) => {};
+const str = "javascriptexercises";
 camelize(str); // "JavaScriptExercises"
