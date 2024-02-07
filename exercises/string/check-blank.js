@@ -11,4 +11,4 @@ const checkIsBlank = (str) => {
   }
 };
 const str = "";
-console.log(checkIsBlank(str)); // true
+console.log(checkIsBlank(str)); // true;
