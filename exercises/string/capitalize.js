@@ -20,7 +20,7 @@ let result = capitalize(str);
 console.log(result);
 
 function replaceChar(str, index, char) {
-  const array = str.split("");
+  const array = str.split("  ");
 
   array[index] = char;
 
