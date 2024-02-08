@@ -3,8 +3,6 @@
  * Expected Result: ('') => true
  * Task Complexity: 1 of 5
  */
-const checkIsBlank = (str) => {
-  console.log(str);
-};
+const checkIsBlank = (str) => {};
 const str = "";
 checkIsBlank(str); // true
