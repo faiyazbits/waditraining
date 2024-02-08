@@ -7,7 +7,11 @@
  * @returns {string}
  */
 const compareNumber = (n1, n2) => {
-  // throw new Error('Put your solution here');
+  if (n1 < n2) {
+    return n2 + " is greater than " + n1;
+  } else {
+    return n2 + " is not greater than " + n1;
+  }
 };
 const a = 100;
 const b = 110;
