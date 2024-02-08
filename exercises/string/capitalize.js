@@ -11,9 +11,9 @@ const capitalize = (str) => {
     let capitelLetter = word[0];
     let uppercaseWord = capitelLetter.toUpperCase();
     let changeword = replaceChar(word, 0, uppercaseWord);
-    return newarray.push(changeword);
+    newarray.push(changeword);
   }
-  return changeword.join(" ");
+  return newarray.join(" ");
 };
 function replaceChar(str, index, char) {
   const array = str.split("");
@@ -21,5 +21,4 @@ function replaceChar(str, index, char) {
   return array.join("");
 }
 const str = "js string exercises";
-let output = capitalize(str); // "Js String Exercises"
-console.log(output);
+console.log(capitalize(str)); // "Js String Exercises"
