@@ -6,8 +6,8 @@
  * @returns {Array}
  */
 const tail = (array) => {
-    throw new Error('Put your solution here');
-}
+  return array.slice(1);
+};
 const data = [1, 2, 3];
 
 console.log(tail(data)); // [2, 3]
