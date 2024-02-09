@@ -4,7 +4,7 @@
  * Task Complexity: 1 of 5
  */
 const chop = (str, chunk) => {
-  let newarray = str.split("");
+  let newarray = str.split(chunk);
   console.log(newarray);
 };
 const str = "javascript";

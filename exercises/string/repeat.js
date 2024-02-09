@@ -4,8 +4,12 @@
  * Task Complexity: 1 of 5
  */
 const repeat = (str, times) => {
-  let letters = str.repeat(times);
-  console.log(letters);
+  for (let i = 1; i < times; i++) {
+    let i = str + " ";
+    let letters = i.repeat(times);
+
+    console.log(letters);
+  }
 };
 const str = "JA";
 const times = 2;
