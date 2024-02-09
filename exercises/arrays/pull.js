@@ -6,10 +6,10 @@
  * @param {Array} values - The values to remove.
  * @returns {Array}
  */
-const pull = (array,values) => {
-    throw new Error('Put your solution here');
-}
-const data = ['a', 'b', 'c', 'a', 'b', 'c'];
-const values = ['a', 'c'];
+const pull = (array, values) => {
+  throw new Error("Put your solution here");
+};
+const data = ["a", "b", "c", "a", "b", "c"];
+const values = ["a", "c"];
 
-console.log(pull(data,values)); // ['b', 'b']
+console.log(pull(data, values)); // ['b', 'b']

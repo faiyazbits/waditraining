@@ -6,11 +6,11 @@
  * @param {Number} arrayElement- arrayElement.
  * @returns {Array}
  */
- const findIndex = (array,element) => {
-    throw new Error('Put your solution here');
-}
-const data = ['a','b','c','d'];
-const arrayElement = 'c';  
+const findIndex = (array, element) => {
+  throw new Error("Put your solution here");
+};
+const data = ["a", "b", "c", "d"];
+const arrayElement = "c";
 
-console.log(findIndex(data,arrayElement)); //2
-console.log(findIndex(data,'z')); //-1
+console.log(findIndex(data, arrayElement)); //2
+console.log(findIndex(data, "z")); //-1

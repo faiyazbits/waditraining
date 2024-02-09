@@ -5,13 +5,13 @@
  * @param {Array} array - Array of any elements
  * @returns {Array}
  */
-let revered_array = [];
+let reversed_array = [];
 
 const reverse = (array) => {
   for (let i = array.length - 1; i >= 0; i--) {
-    revered_array.push(array[i]);
+    reversed_array.push(array[i]);
   }
-  console.log(revered_array);
+  console.log(reversed_array);
 };
 const data = [1, 2, 3];
 reverse(data); // [3, 2, 1]
