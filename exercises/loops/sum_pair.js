@@ -5,8 +5,7 @@
   * Expected Result: ([4, 6, 7],[8, 1, 9]) => [12, 7, 16]
   * Task Complexity: 1 of 5
 */
-const sumOfPairs = (num1, num2) => {
-}
+const sumOfPairs = (num1, num2) => {};
 let num1 = [4, 6, 7];
 let num2 = [8, 1, 9];
-console.log(sumOfPairs(num1, num2)) // [12, 7, 16]
+console.log(sumOfPairs(num1, num2)); // [12, 7, 16]

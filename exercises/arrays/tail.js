@@ -12,3 +12,4 @@ const tail = (array) => {
 const data = [1, 2, 3];
 
 tail(data); // [2, 3]
+/*---------------------*/
