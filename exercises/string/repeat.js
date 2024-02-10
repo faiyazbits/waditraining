@@ -5,8 +5,8 @@
  */
 const repeat = (str, times) => {
   for (let i = 1; i < times; i++) {
-    let i = str + " ";
-    let letters = i.repeat(times);
+    let word = str + " ";
+    let letters = word.repeat(times);
 
     console.log(letters);
   }
@@ -14,3 +14,5 @@ const repeat = (str, times) => {
 const str = "JA";
 const times = 2;
 repeat(str, times); // "JA JA"
+
+/*------------------------------*/

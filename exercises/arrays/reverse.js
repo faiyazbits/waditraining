@@ -6,7 +6,7 @@
  * @returns {Array}
  */
 const reverse = (array) => {
-  for (let i = 3; i >= 1; i--) {
+  for (let i = array.length; i >= 1; i--) {
     console.log(i);
   }
 };

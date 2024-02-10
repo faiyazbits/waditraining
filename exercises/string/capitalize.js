@@ -22,3 +22,5 @@ function replaceChar(str, index, char) {
 }
 const str = "js string exercises";
 console.log(capitalize(str)); // "Js String Exercises"
+
+/*-----------------------*/
