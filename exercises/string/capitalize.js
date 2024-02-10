@@ -7,10 +7,10 @@ const capitalize = (str) => {
   let wordArray = [];
   let words = str.split(" ");
   for (let i = 0; i < words.length; i++) {
-    let word = words[i];
-    let wordFirstLetter = word[0];
+    let letter = words[i];
+    let wordFirstLetter = letter[0];
     let capitalesLetter = wordFirstLetter.toUpperCase();
-    let changed = replaceChar(word, 0, capitalesLetter);
+    let changed = replaceChar(letter, 0, capitalesLetter);
     wordArray.push(changed);
   }
   return wordArray.join(" ");
@@ -20,7 +20,7 @@ let result = capitalize(str);
 console.log(result);
 
 function replaceChar(str, index, char) {
-  const array = str.split("  ");
+  const array = str.split("");
 
   array[index] = char;
 
