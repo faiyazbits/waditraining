@@ -6,10 +6,17 @@
  * @returns {Array}
  */
 const fromPairs = (array) => {
-  let obj = {};
-  obj.key = array[0][1];
-  console.log(obj);
+  let result = {};
+  for (let i = 0; i < array.length; i++) {
+    let pair = array[i];
+    let key = pair[0];
+    let value = pair[1];
+    result[key] = value;
+  }
+
+  return result;
 };
+
 const data = [
   ["a", 1],
   ["b", 2],
