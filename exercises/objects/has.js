@@ -6,13 +6,11 @@
  * @param {string} path - The path to check.
  * @returns {Boolean}
  */
-const has = (data,path) => {
-    throw new Error('Put your solution here');
-}
+const has = (data, path) => {};
 const data = {
-    a : {b : 2}
-}
-const path = 'a.b'
+  a: { b: 2 },
+};
+const path = "a.b";
 
-console.log(has(data,path)); // true
-console.log(has(data,'a.b.c')); // false
+console.log(has(data, path)); // true
+// console.log(has(data, "a.b.c")); // false
