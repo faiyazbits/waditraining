@@ -5,7 +5,16 @@
  * @param {Array} array - a deep array of pairs
  * @returns {Array}
  */
-const fromPairs = (array) => {};
+const fromPairs = (array) => {
+  let result = {};
+  for (let i = 0; i < array.length; i++) {
+    let pairs = array[i];
+    let key = pairs[0];
+    let value = pairs[1];
+    result[key] = value;
+  }
+  return result;
+};
 const data = [
   ["a", 1],
   ["b", 2],
