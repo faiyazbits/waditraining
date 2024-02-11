@@ -20,3 +20,5 @@ const data = [
   ["b", 2],
 ];
 console.log(fromPairs(data)); // { 'a': 1, 'b': 2 }
+
+/*--------------------------*/

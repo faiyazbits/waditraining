@@ -5,7 +5,13 @@
  * @param {Object} data - The object to invert.
  * @returns {Object} - Returns the new inverted object.
  */
-const invert = (data) => {};
+const invert = (data) => {
+  let object = {};
+  for (let prop in data) {
+    object[data[prop]] = prop;
+  }
+  return object;
+};
 const data = {
   a: 1,
   b: 2,
