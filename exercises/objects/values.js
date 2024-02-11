@@ -6,7 +6,11 @@
  * @returns {Array}
  */
 const values = (data) => {
-  return data.values;
+  let result = [];
+  for (let key in data) {
+    result.push(data[key]);
+  }
+  return result;
 };
 const data = {
   a: 1,
