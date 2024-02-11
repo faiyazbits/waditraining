@@ -6,12 +6,16 @@
  * @returns {Object} - Returns the new inverted object.
  */
 const invert = (data) => {
-    throw new Error('Put your solution here');
-}
+  let result = {};
+  for (let key in data) {
+    result[data[key]] = key;
+  }
+  return result;
+};
 const data = {
-    a : 1,
-    b : 2,
-    c : 3
-}
+  a: 1,
+  b: 2,
+  c: 3,
+};
 
 console.log(invert(data)); // { '1': 'a', '2': 'b', '3': 'c' }
