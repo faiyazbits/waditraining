@@ -20,3 +20,5 @@ const data = {
 };
 
 console.log(keys(data)); // ['a', 'b', 'c']
+
+/*------------------*/
