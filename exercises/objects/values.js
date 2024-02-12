@@ -6,12 +6,19 @@
  * @returns {Array}
  */
 const values = (data) => {
-    throw new Error('Put your solution here');
-}
+  let result = [];
+  for (let k in data) {
+    let value = data[k];
+    result.push(value);
+  }
+
+  return result;
+};
+
 const data = {
-    a : 1,
-    b : 2,
-    c : 3,
-}
+  a: 1,
+  b: 2,
+  c: 3,
+};
 
 console.log(values(data)); // [1,2,3]

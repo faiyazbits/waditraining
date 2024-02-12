@@ -6,14 +6,12 @@
  * @param {Array} paths - TThe property paths to pick.
  * @returns {Object}
  */
-const pick = (data,paths) => {
-    throw new Error('Put your solution here');
-}
+const pick = (data, paths) => {};
 const data = {
-    a : 1,
-    b : 2,
-    c : 3
-}
-const paths =  ['a', 'c']
+  a: 1,
+  b: 2,
+  c: 3,
+};
+const paths = ["a", "c"];
 
-console.log(pick(data,paths)); // { 'a': 1, 'c': 3 }
+console.log(pick(data, paths)); // { 'a': 1, 'c': 3 }
