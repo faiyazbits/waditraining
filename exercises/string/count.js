@@ -7,7 +7,7 @@ const count = (str, wordToFind) => {
   let splitStr = str.split(" ");
   let count = 0;
   for (let i = 0; i <= splitStr.length; i++) {
-    if (i === wordToFind) {
+    if (i == wordToFind) {
       count++;
     }
     return count;
