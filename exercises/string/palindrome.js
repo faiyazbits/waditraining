@@ -1,5 +1,3 @@
-
-
 /**
  * Task description: Write a method to check string is a palindrome.
  * Expected Result: string is palindrome it return ture
@@ -7,8 +5,7 @@
  * @returns {boolean}
  */
 function palindrome(str) {
-    throw new Error('Put your solution here');
+  throw new Error("Put your solution here");
 }
 
-
-console.log(palindrome("Madam")) // true
+console.log(palindrome("Madam")); // true
