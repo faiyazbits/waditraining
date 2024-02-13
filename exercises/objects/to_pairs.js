@@ -8,9 +8,11 @@
 const toPairs = (obj) => {
   let array = [];
   for (let prop in obj) {
+    let array1 = [];
     let key = prop;
     let value = obj[prop];
-    array[key] = value;
+    array1[key] = value;
+    array.push(array1);
   }
   return array;
 };
