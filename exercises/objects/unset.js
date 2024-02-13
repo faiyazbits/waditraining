@@ -6,19 +6,19 @@
  * @param {Array} paths - The property paths to omit.
  * @returns {Array}
  */
-const unset = (data,paths) => {
-    throw new Error('Put your solution here');
-}
+const unset = (data, paths) => {
+  
+};
 const data = {
-    a : [
-        {
-            b: {
-                c : 7
-            }
-        }
-    ]
-}
-const paths = ['a', '0', 'b', 'c'];
+  a: [
+    {
+      b: {
+        c: 7,
+      },
+    },
+  ],
+};
+const paths = ["a", "0", "b", "c"];
 
-console.log(unset(data,paths)); // true
+console.log(unset(data, paths)); // true
 console.log(data); // {a : [{ b: {} }]}

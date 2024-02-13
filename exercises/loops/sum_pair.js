@@ -10,8 +10,9 @@ const sumOfPairs = (num1, num2) => {
   for (let i = 0; i < num1.length; i++) {
     sum.push(num1[i] + num2[i]);
   }
-  console.log(sum);
+  return sum;
 };
 let num1 = [4, 6, 7];
 let num2 = [8, 1, 9];
-sumOfPairs(num1, num2); // [12, 7, 16]
+let result = sumOfPairs(num1, num2); // [12, 7, 16]
+console.log(result);
