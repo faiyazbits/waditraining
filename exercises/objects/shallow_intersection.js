@@ -7,13 +7,15 @@
  * @returns {Object}
  */
 const intersection = (firstObject, secondObject) => {
+  let result = {};
   for (let k in firstObject) {
-    for (let i in secondObject) {
-      if (firstObject[k].hasOwnProperty(secondObject[i])) {
-        return secondObject[i];
+    for (let j in secondObject) {
+      if (k === j) {
+        result[k] = firstObject[j];
       }
     }
   }
+  return result;
 };
 const data = { a: 1, b: 2 };
 const data2 = { c: 1, b: 2 };
