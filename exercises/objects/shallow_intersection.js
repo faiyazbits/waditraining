@@ -9,10 +9,8 @@
 const intersection = (firstObject, secondObject) => {
   let result = {};
   for (let k in firstObject) {
-    for (let j in secondObject) {
-      if (k === j) {
-        result[k] = firstObject[j];
-      }
+    if (firstObject.hasownproperty(secondObject)) {
+      result[k] = firstObject[k];
     }
   }
   return result;
