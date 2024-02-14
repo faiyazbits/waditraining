@@ -8,15 +8,10 @@
  */
 const pick = (data, paths) => {
   let result = {};
-  for (let k in data) {
-    for (let i of paths) {
-      if (k === i) {
-        result[k] = i;
-      }
-    }
-  }
-
-  return result;
+  let firstProp = data.a;
+  let secondProp = Object.keys(data);
+  data = secondProp;
+  console.log(secondProp[0]);
 };
 const data = {
   a: 1,
@@ -25,4 +20,13 @@ const data = {
 };
 const paths = ["a", "c"];
 
-console.log(pick(data, paths)); // { 'a': 1, 'c': 3 }
+pick(data, paths); // { 'a': 1, 'c': 3 }
+
+function replaceChar(str, index, char) {
+  const array = str.split("");
+
+  array[index] = char;
+
+  // finally, convert the array back to a string
+  return array.join("");
+}
