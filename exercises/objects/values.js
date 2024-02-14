@@ -6,12 +6,17 @@
  * @returns {Array}
  */
 const values = (data) => {
-    throw new Error('Put your solution here');
-}
+  let newarray = [];
+  for (let prop in data) {
+    let values = prop(1);
+    newarray.push(values);
+  }
+  return array;
+};
 const data = {
-    a : 1,
-    b : 2,
-    c : 3,
-}
+  a: 1,
+  b: 2,
+  c: 3,
+};
 
 console.log(values(data)); // [1,2,3]
