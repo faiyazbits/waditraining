@@ -8,10 +8,10 @@
 const values = (data) => {
   let newarray = [];
   for (let prop in data) {
-    let values = prop(1);
+    let values = data[prop];
     newarray.push(values);
   }
-  return array;
+  return newarray;
 };
 const data = {
   a: 1,
